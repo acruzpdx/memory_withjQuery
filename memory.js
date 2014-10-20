@@ -47,6 +47,7 @@ var memoryGame = (function() {
 				timerHandle = null;
 				seconds = 0;
 				$("span#time").text(" ");		
+				hideModalMsgBox();
 				firstTile = null;
 				secondTile = null;
 				pairsFound = 0;
